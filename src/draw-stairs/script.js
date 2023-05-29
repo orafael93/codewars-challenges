@@ -1,3 +1,5 @@
+// const drawStairs = n => [...Array(n)].map((_, i) => " ".repeat(i) + "I").join("\n");
+
 const createBlankSpaces = (n) => Array.from({ length: n })
                           .reduce((acc) => acc += ' ', '')
 
